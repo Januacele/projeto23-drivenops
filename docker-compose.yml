@@ -24,7 +24,7 @@ services:
   react_sorteador_app_live:
     container_name: react_sorteador_app_live
     build: ./front-end
-    image: nginx_sorteador_app_live_image
+    image: react_sorteador_app_live_image
     volumes:
       - build_react:/var/www/html
 
